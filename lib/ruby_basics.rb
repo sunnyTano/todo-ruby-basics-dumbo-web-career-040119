@@ -1,5 +1,5 @@
 def division(num1, num2)
- 
+ return num1/num2
 end
 
 def assign_variable(value)
@@ -26,7 +26,7 @@ def pizza_party
 
 end
 
-#! require 'spec_helper'
+=begin require 'spec_helper'
 require_relative '../lib/ruby_basics.rb'
 
 
@@ -94,4 +94,3 @@ describe "ruby" do
     end
   end
 end
-  -w
