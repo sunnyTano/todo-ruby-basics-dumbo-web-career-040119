@@ -10,8 +10,8 @@ def argue(phrase)
   return phrase
 end
 
-def greeting
-
+def greeting(greeting, name)
+  return greeting + name
 end
 
 def return_a_value
@@ -27,14 +27,6 @@ def pizza_party
 end
 
 =begin 
-
-  describe '#argue' do
-    it 'accepts an argument and return that argument as is' do
-      phrase = "I'm right and you are wrong!"
-
-      expect(argue(phrase)).to eq(phrase)
-    end
-  end
 
   describe '#greeting' do
     it 'takes two arguments' do
