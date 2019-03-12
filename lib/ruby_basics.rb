@@ -3,7 +3,7 @@ def division(num1, num2)
 end
 
 def assign_variable(value)
-  
+  return value
 end
 
 def argue
@@ -32,14 +32,6 @@ require_relative '../lib/ruby_basics.rb'
 
 describe "ruby" do
 
-  describe "#division" do
-    it 'given two numbers returns quotient of the first number divided by the second number' do
-      num1 = 42
-      num2 = 7
-
-      expect(division(num1,num2)).to eq(6)
-    end
-  end
 
   describe '#assign_variable' do
     it 'takes an argument of a persons name and assign it to a variable name' do
