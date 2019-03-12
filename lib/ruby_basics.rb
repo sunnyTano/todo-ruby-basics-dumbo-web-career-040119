@@ -6,8 +6,8 @@ def assign_variable(value)
   return value
 end
 
-def argue
-  
+def argue(phrase)
+  return phrase
 end
 
 def greeting
@@ -26,20 +26,7 @@ def pizza_party
 
 end
 
-=begin require 'spec_helper'
-require_relative '../lib/ruby_basics.rb'
-
-
-describe "ruby" do
-
-
-  describe '#assign_variable' do
-    it 'takes an argument of a persons name and assign it to a variable name' do
-      value = "Bob"
-
-      expect(assign_variable(value)).to eq(value)
-    end
-  end
+=begin 
 
   describe '#argue' do
     it 'accepts an argument and return that argument as is' do
