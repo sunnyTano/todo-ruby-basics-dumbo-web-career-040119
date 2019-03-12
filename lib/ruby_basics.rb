@@ -22,17 +22,11 @@ def last_evaluated_value
   return "expert"
 end
 
-def pizza_party
-
+def pizza_party(type = "cheese")
+  return type
 end
 
 =begin 
-
-  describe '#last_evaluated_value' do
-    it 'returns the phrase "expert"' do
-      expect(last_evaluated_value).to eq("expert")
-    end
-  end
 
   describe '#pizza_party' do
     it 'returns "cheese" by default' do
